@@ -63,7 +63,7 @@ Se crearon los siguientes abjetos para la interacción de los elementos de la p�
 	<tr>
 		<th>Nombre</th>
 		<th>Valor</th>
-		<th>Description</th>
+		<th>Descripción</th>
 	<tr>
 	<tr>
 		<td>colorMediaRosado</td>
@@ -87,7 +87,7 @@ Se crearon los siguientes abjetos para la interacción de los elementos de la p�
 	<tr>
 		<th>Nombre</th>
 		<th>Valor</th>
-		<th>Description</th>
+		<th>Descripción</th>
 	<tr>
 	<tr>
 		<td>URL</td>
