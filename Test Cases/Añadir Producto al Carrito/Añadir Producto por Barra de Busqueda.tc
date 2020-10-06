@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Añadir Producto por Barra de Busqueda</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>74c7c7fa-1b3a-454e-9c78-fcc51f0b1dcd</testCaseGuid>
+   <variable>
+      <defaultValue>'Girl Stripes'</defaultValue>
+      <description></description>
+      <id>b9e4c4dc-f15c-45b8-a8ac-0ca6153037d0</id>
+      <masked>false</masked>
+      <name>colorMediaRosado</name>
+   </variable>
+</TestCaseEntity>

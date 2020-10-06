@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+A\u00F1adir producto Carrito Amazon,Chrome 85.0.4183.121,,,2020-10-05 23:00:57,2020-10-05 23:02:14,1m - 17.898s,PASSED
+,,,,,,,
+Test Cases/A\u00F1adir Producto al Carrito/A\u00F1adir Producto por Seccion Categorias,Chrome 85.0.4183.121,,,2020-10-05 23:00:57,2020-10-05 23:01:40,42.775s,PASSED
+"openBrowser("""")",Chrome 85.0.4183.121,,,2020-10-05 23:00:58,2020-10-05 23:01:04,5.785s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 85.0.4183.121,,,2020-10-05 23:01:04,2020-10-05 23:01:09,5.027s,PASSED
+maximizeWindow(),Chrome 85.0.4183.121,,,2020-10-05 23:01:09,2020-10-05 23:01:11,2.462s,PASSED
+"if (waitForElementPresent(findTestObject(""Añadir Producto al Carrito/Añadir producto por Categoria/click_Nav_Menu""), timeOut))",Chrome 85.0.4183.121,,,2020-10-05 23:01:11,2020-10-05 23:01:15,3.873s,PASSED
+"if (waitForElementPresent(findTestObject(""Añadir Producto al Carrito/Añadir producto por Categoria/click_Bebe_Categoria""), timeOut))",Chrome 85.0.4183.121,,,2020-10-05 23:01:15,2020-10-05 23:01:16,1.425s,PASSED
+"if (waitForElementPresent(findTestObject(""Añadir Producto al Carrito/Añadir producto por Categoria/click_Accesorios""), timeOut))",Chrome 85.0.4183.121,,,2020-10-05 23:01:16,2020-10-05 23:01:20,3.612s,PASSED
+"if (waitForElementPresent(findTestObject(""Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/click_Calcetines_Algodon""), timeOut))",Chrome 85.0.4183.121,,,2020-10-05 23:01:20,2020-10-05 23:01:24,3.946s,PASSED
+"if (waitForElementPresent(findTestObject(""Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/click_Select_Opcion_Size""), timeOut))",Chrome 85.0.4183.121,,,2020-10-05 23:01:24,2020-10-05 23:01:28,3.551s,PASSED
+"if (waitForElementPresent(findTestObject(""Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/click_Calcetines_Size""), timeOut))",Chrome 85.0.4183.121,,,2020-10-05 23:01:28,2020-10-05 23:01:29,1.403s,PASSED
+"if (waitForElementPresent(findTestObject(""Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/btn_Color_Calcetines""), timeOut))",Chrome 85.0.4183.121,,,2020-10-05 23:01:29,2020-10-05 23:01:34,4.528s,PASSED
+"colorSeleccionado = getText(findTestObject(""Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/label_Color_Seleccionado""))",Chrome 85.0.4183.121,,,2020-10-05 23:01:34,2020-10-05 23:01:37,3.166s,PASSED
+println(colorSeleccionado),Chrome 85.0.4183.121,,,2020-10-05 23:01:37,2020-10-05 23:01:37,0.005s,PASSED
+if (colorSeleccionado == colorMediaRosado),Chrome 85.0.4183.121,,,2020-10-05 23:01:37,2020-10-05 23:01:37,0.003s,PASSED
+"if (waitForElementPresent(findTestObject(""Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/btn_Añadir_Carrito""), timeOut))",Chrome 85.0.4183.121,,,2020-10-05 23:01:37,2020-10-05 23:01:39,2.103s,PASSED
+closeBrowser(),Chrome 85.0.4183.121,,,2020-10-05 23:01:39,2020-10-05 23:01:40,0.979s,PASSED
+,,,,,,,
+Test Cases/A\u00F1adir Producto al Carrito/A\u00F1adir Producto por Barra de Busqueda,Chrome 85.0.4183.121,,,2020-10-05 23:01:40,2020-10-05 23:02:14,34.671s,PASSED
+"openBrowser("""")",Chrome 85.0.4183.121,,,2020-10-05 23:01:40,2020-10-05 23:01:44,3.472s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 85.0.4183.121,,,2020-10-05 23:01:44,2020-10-05 23:01:47,3.740s,PASSED
+maximizeWindow(),Chrome 85.0.4183.121,,,2020-10-05 23:01:47,2020-10-05 23:01:50,2.358s,PASSED
+"if (waitForElementPresent(findTestObject(""Object Repository/Añadir Producto al Carrito/Añadir Producto por Barra de Busqueda/input_Barra_Busqueda""), timeOut))",Chrome 85.0.4183.121,,,2020-10-05 23:01:50,2020-10-05 23:01:53,3.352s,PASSED
+"sendKeys(findTestObject(""Añadir Producto al Carrito/Añadir Producto por Barra de Busqueda/input_Barra_Busqueda""), Keys.chord(ENTER))",Chrome 85.0.4183.121,,,2020-10-05 23:01:53,2020-10-05 23:01:57,3.993s,PASSED
+"if (waitForElementPresent(findTestObject(""Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/click_Calcetines_Algodon""), timeOut))",Chrome 85.0.4183.121,,,2020-10-05 23:01:57,2020-10-05 23:01:59,1.837s,PASSED
+"if (waitForElementPresent(findTestObject(""Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/click_Select_Opcion_Size""), timeOut))",Chrome 85.0.4183.121,,,2020-10-05 23:01:59,2020-10-05 23:02:03,4.428s,PASSED
+"if (waitForElementPresent(findTestObject(""Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/click_Calcetines_Size""), timeOut))",Chrome 85.0.4183.121,,,2020-10-05 23:02:03,2020-10-05 23:02:05,1.647s,PASSED
+"if (waitForElementPresent(findTestObject(""Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/btn_Color_Calcetines""), timeOut))",Chrome 85.0.4183.121,,,2020-10-05 23:02:05,2020-10-05 23:02:08,3.407s,PASSED
+"colorSeleccionado = getText(findTestObject(""Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/label_Color_Seleccionado""))",Chrome 85.0.4183.121,,,2020-10-05 23:02:08,2020-10-05 23:02:11,2.831s,PASSED
+println(colorSeleccionado),Chrome 85.0.4183.121,,,2020-10-05 23:02:11,2020-10-05 23:02:11,0.000s,PASSED
+if (colorSeleccionado == colorMediaRosado),Chrome 85.0.4183.121,,,2020-10-05 23:02:11,2020-10-05 23:02:11,0.002s,PASSED
+"if (waitForElementPresent(findTestObject(""Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/btn_Añadir_Carrito""), timeOut))",Chrome 85.0.4183.121,,,2020-10-05 23:02:11,2020-10-05 23:02:13,2.130s,PASSED
+closeBrowser(),Chrome 85.0.4183.121,,,2020-10-05 23:02:13,2020-10-05 23:02:14,1.001s,PASSED

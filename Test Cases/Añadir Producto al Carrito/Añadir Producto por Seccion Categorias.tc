@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Añadir Producto por Seccion Categorias</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7aa7b2da-a809-4755-98b5-4fcec7bad2de</testCaseGuid>
+   <variable>
+      <defaultValue>'Girl Stripes'</defaultValue>
+      <description></description>
+      <id>6bf3234d-dba3-491b-a3c2-cb870313bac1</id>
+      <masked>false</masked>
+      <name>colorMediaRosado</name>
+   </variable>
+</TestCaseEntity>
