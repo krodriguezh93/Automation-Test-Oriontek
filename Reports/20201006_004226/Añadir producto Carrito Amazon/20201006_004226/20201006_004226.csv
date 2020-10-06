@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+A\u00F1adir producto Carrito Amazon,Chrome 85.0.4183.121,,,2020-10-06 00:42:30,2020-10-06 00:44:20,1m - 49.369s,PASSED
+,,,,,,,
+Test Cases/A\u00F1adir Producto al Carrito/A\u00F1adir Producto por Seccion Categorias,Chrome 85.0.4183.121,,,2020-10-06 00:42:31,2020-10-06 00:43:26,54.920s,PASSED
+try,Chrome 85.0.4183.121,,,2020-10-06 00:42:32,2020-10-06 00:43:26,53.831s,PASSED
+,,,,,,,
+Test Cases/A\u00F1adir Producto al Carrito/A\u00F1adir Producto por Barra de Busqueda,Chrome 85.0.4183.121,,,2020-10-06 00:43:26,2020-10-06 00:44:20,53.622s,PASSED
+try,Chrome 85.0.4183.121,,,2020-10-06 00:43:27,2020-10-06 00:44:20,52.971s,PASSED

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>click_Calcetines_Size</name>
+   <name>dropdown_Opcion_Size</name>
    <tag></tag>
-   <elementGuidId>a5a6d204-089e-4180-b3f0-951b0c147130</elementGuidId>
+   <elementGuidId>65cdf3cc-11c6-4096-830d-8ba035dc813a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='native_dropdown_selected_size_name_2']</value>
+         <value>//span[@id='dropdown_selected_size_name']/span/span</value>
       </entry>
       <entry>
          <key>BASIC</key>

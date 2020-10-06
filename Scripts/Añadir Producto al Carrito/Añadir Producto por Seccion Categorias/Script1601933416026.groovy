@@ -15,61 +15,38 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.exception.StepFailedException
 
+try {
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.amazon.com/')
+WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.maximizeWindow()
 
-if (WebUI.waitForElementPresent(findTestObject('Añadir Producto al Carrito/Añadir producto por Categoria/click_Nav_Menu'), 
-    GlobalVariable.timeOut)) {
-    WebUI.click(findTestObject('Añadir Producto al Carrito/Añadir producto por Categoria/click_Nav_Menu'))
-} else {
-    println('No se encontro el objeto click_Nav_Menu')
+if (WebUI.waitForElementPresent(findTestObject('Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/hamburger_Nav_Menu'), GlobalVariable.timeOut)) {
+	WebUI.click(findTestObject('Añadir Producto al Carrito/Añadir producto por Categoria/hamburger_Nav_Menu'))
+}
+if (WebUI.waitForElementPresent(findTestObject('Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/link_Categoria_Bebe'), GlobalVariable.timeOut)) {
+	WebUI.click(findTestObject('Añadir Producto al Carrito/Añadir producto por Categoria/link_Categoria_Bebe'))
+}
+if (WebUI.waitForElementPresent(findTestObject('Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/link_Categoria_Accesorios'), GlobalVariable.timeOut)) {
+	WebUI.click(findTestObject('Añadir Producto al Carrito/Añadir producto por Categoria/link_Categoria_Accesorios'))
+}
+if (WebUI.waitForElementPresent(findTestObject('Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/link_Calcetines_Algodon'), GlobalVariable.timeOut)) {
+	WebUI.click(findTestObject('Añadir Producto al Carrito/Añadir producto por Categoria/link_Calcetines_Algodon'))
+}
+if (WebUI.waitForElementPresent(findTestObject('Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/dropdown_Opcion_Size'), GlobalVariable.timeOut)) {
+	WebUI.click(findTestObject('Añadir Producto al Carrito/Añadir producto por Categoria/dropdown_Opcion_Size'))
+}
+if (WebUI.waitForElementPresent(findTestObject('Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/dropdown_Calcetines_Size'), GlobalVariable.timeOut)) {
+	WebUI.click(findTestObject('Añadir Producto al Carrito/Añadir producto por Categoria/dropdown_Calcetines_Size'))
+}
+if (WebUI.waitForElementPresent(findTestObject('Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/btn_Color_Calcetines'), GlobalVariable.timeOut)) {
+	WebUI.click(findTestObject('Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/btn_Color_Calcetines'))
 }
 
-if (WebUI.waitForElementPresent(findTestObject('Añadir Producto al Carrito/Añadir producto por Categoria/click_Bebe_Categoria'), 
-    GlobalVariable.timeOut)) {
-    WebUI.click(findTestObject('Añadir Producto al Carrito/Añadir producto por Categoria/click_Bebe_Categoria'))
-} else {
-    println('No se encontro el objeto click_bebe_Categoria')
-}
 
-if (WebUI.waitForElementPresent(findTestObject('Añadir Producto al Carrito/Añadir producto por Categoria/click_Accesorios'), 
-    GlobalVariable.timeOut)) {
-    WebUI.click(findTestObject('Añadir Producto al Carrito/Añadir producto por Categoria/click_Accesorios'))
-} else {
-    println('No se encontro el objeto click_Accesorios')
-}
-
-if (WebUI.waitForElementPresent(findTestObject('Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/click_Calcetines_Algodon'), 
-    GlobalVariable.timeOut)) {
-    WebUI.click(findTestObject('Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/click_Calcetines_Algodon'))
-} else {
-    println('No se encontro el objeto click_Calcetines_Algodon ')
-}
-
-if (WebUI.waitForElementPresent(findTestObject('Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/click_Select_Opcion_Size'), 
-    GlobalVariable.timeOut)) {
-    WebUI.click(findTestObject('Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/click_Select_Opcion_Size'))
-} else {
-    println('No se encontro el objeto  click_Select_Opcion_Size')
-}
-
-if (WebUI.waitForElementPresent(findTestObject('Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/click_Calcetines_Size'), 
-    GlobalVariable.timeOut)) {
-    WebUI.click(findTestObject('Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/click_Calcetines_Size'))
-} else {
-    println('No se encontro el objeto click_Calcetines_Size')
-}
-
-if (WebUI.waitForElementPresent(findTestObject('Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/btn_Color_Calcetines'), 
-    GlobalVariable.timeOut)) {
-    WebUI.click(findTestObject('Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/btn_Color_Calcetines'))
-} else {
-    println('No se encontro el objeto btn_Color_Calcetine ')
-}
 
 String colorSeleccionado = WebUI.getText(findTestObject('Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/label_Color_Seleccionado'))
 
@@ -81,13 +58,11 @@ if (colorSeleccionado == colorMediaRosado) {
     throw Exception('Color incorrecto')
 }
 
-if (WebUI.waitForElementPresent(findTestObject('Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/btn_Añadir_Carrito'), 
-    GlobalVariable.timeOut)) {
-    WebUI.click(findTestObject('Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/btn_Añadir_Carrito'))
-} else {
-    println('No se encontro el objeto btn_Añadir_Carrito')
+ WebUI.click(findTestObject('Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/btn_Añadir_Carrito'))
 
-    
-}
 
 WebUI.closeBrowser()
+
+} catch (StepFailedException error) {
+	println("No se encontró el objeto: " + error)
+}

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>click_Accesorios</name>
+   <name>hamburger_Nav_Menu</name>
    <tag></tag>
-   <elementGuidId>9b5dea60-9449-44f9-a81b-1730b6dfdebe</elementGuidId>
+   <elementGuidId>8f99aad0-b294-4b6e-9dbd-9ebda5f68e3e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='hmenu-content']/ul[10]/li[4]/a</value>
+         <value>//a[@id='nav-hamburger-menu']/i</value>
       </entry>
       <entry>
          <key>BASIC</key>

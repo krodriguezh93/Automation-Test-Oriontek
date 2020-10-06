@@ -5,6 +5,11 @@
    <tag></tag>
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
+      <description>url pagina web Amazon</description>
+      <initValue>'https://www.amazon.com'</initValue>
+      <name>URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
       <description></description>
       <initValue>40</initValue>
       <name>timeOut</name>

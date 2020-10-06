@@ -1,23 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>click_Calcetines_Algodon</name>
+   <name>link_Categoria_Bebe</name>
    <tag></tag>
-   <elementGuidId>309b887c-a31d-4015-885c-cbabac0ab8ab</elementGuidId>
+   <elementGuidId>33067eca-33eb-409e-b2db-14f4f59ee09d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div[data-asin='B07D7KKB95'] a</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value></value>
+         <value>//div[@id='hmenu-content']/ul/li[11]/a/div</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

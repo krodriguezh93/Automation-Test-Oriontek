@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>click_Select_Opcion_Size</name>
+   <name>link_Categoria_Accesorios</name>
    <tag></tag>
-   <elementGuidId>65cdf3cc-11c6-4096-830d-8ba035dc813a</elementGuidId>
+   <elementGuidId>9b5dea60-9449-44f9-a81b-1730b6dfdebe</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[@id='dropdown_selected_size_name']/span/span</value>
+         <value>//div[@id='hmenu-content']/ul[10]/li[4]/a</value>
       </entry>
       <entry>
          <key>BASIC</key>

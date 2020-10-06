@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>click_Bebe_Categoria</name>
+   <name>dropdown_Calcetines_Size</name>
    <tag></tag>
-   <elementGuidId>33067eca-33eb-409e-b2db-14f4f59ee09d</elementGuidId>
+   <elementGuidId>a5a6d204-089e-4180-b3f0-951b0c147130</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='hmenu-content']/ul/li[11]/a/div</value>
+         <value>//a[@id='native_dropdown_selected_size_name_2']</value>
       </entry>
       <entry>
          <key>BASIC</key>

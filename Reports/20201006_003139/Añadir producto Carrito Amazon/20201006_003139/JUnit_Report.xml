@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="A\u00F1adir producto Carrito Amazon" time="166.877" tests="2" failures="0" errors="0">
+   <testsuite name="A\u00F1adir producto Carrito Amazon" tests="2" failures="0" errors="0" time="166.877" timestamp="2020-10-06 00:31:43" hostname="Karina - DESKTOP-LK08F6R" id="Test Suites/A\u00F1adir producto Carrito Amazon">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Karina\\Desktop\\Automation-Test-Oriontek\\Reports\\20201006_003139\\A\u00F1adir producto Carrito Amazon\\20201006_003139"/>
+         <property name="logFiles" value="C:\\Users\\Karina\\Desktop\\Automation-Test-Oriontek\\Reports\\20201006_003139\\A\u00F1adir producto Carrito Amazon\\20201006_003139\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Karina - DESKTOP-LK08F6R"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.5.5.1"/>
+         <property name="browser" value="Chrome 85.0.4183.121"/>
+         <property name="hostAddress" value="172.20.10.8"/>
+         <property name="sessionId" value="d556bd4014bc44ae6ebfa1e36e2c8774"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/A\u00F1adir Producto al Carrito/A\u00F1adir Producto por Seccion Categorias" time="115.946" classname="Test Cases/A\u00F1adir Producto al Carrito/A\u00F1adir Producto por Seccion Categorias" status="PASSED">
+         <system-out><![CDATA[2020-10-06 00:31:44 - [TEST_CASE][PASSED] - Test Cases/A\u00F1adir Producto al Carrito/A\u00F1adir Producto por Seccion Categorias: Test Cases/Añadir Producto al Carrito/Añadir Producto por Seccion Categorias
+
+2020-10-06 00:31:45 - [TEST_STEP][FAILED] - try: Unable to click on object 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/dropdown_Calcetines_Size' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/dropdown_Calcetines_Size'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Añadir Producto por Seccion Categorias.run(Añadir Producto por Seccion Categorias:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1601958699512.run(TempTestSuite1601958699512.groovy:37)
+Caused by: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-LK08F6R', ip: '172.20.10.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Karina\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60731}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c06c7df50a9a2b7e874c7b91397bef6e
+*** Element info: {Using=xpath, value=//a[@id='native_dropdown_selected_size_name_2']}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:789)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1150)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1601933416026.run(Script1601933416026.groovy:31)
+	... 13 more
+)
+
+2020-10-06 00:31:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-06 00:31:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-06 00:31:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-06 00:31:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-06 00:31:51 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://www.amazon.com' successfully
+
+2020-10-06 00:32:00 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com' successfully
+
+2020-10-06 00:32:00 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-10-06 00:32:03 - [MESSAGE][PASSED] - Current window maximized
+
+2020-10-06 00:32:03 - [TEST_STEP][PASSED] - click(findTestObject("Añadir Producto al Carrito/Añadir producto por Categoria/hamburger_Nav_Menu")): Object: 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/hamburger_Nav_Menu' is clicked on
+
+2020-10-06 00:32:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/hamburger_Nav_Menu' is clicked on
+
+2020-10-06 00:32:19 - [TEST_STEP][PASSED] - click(findTestObject("Añadir Producto al Carrito/Añadir producto por Categoria/link_Categoria_Bebe")): Object: 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/link_Categoria_Bebe' is clicked on
+
+2020-10-06 00:32:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/link_Categoria_Bebe' is clicked on
+
+2020-10-06 00:32:19 - [TEST_STEP][PASSED] - click(findTestObject("Añadir Producto al Carrito/Añadir producto por Categoria/link_Categoria_Accesorios")): Object: 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/link_Categoria_Accesorios' is clicked on
+
+2020-10-06 00:32:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/link_Categoria_Accesorios' is clicked on
+
+2020-10-06 00:32:24 - [TEST_STEP][PASSED] - click(findTestObject("Añadir Producto al Carrito/Añadir producto por Categoria/link_Calcetines_Algodon")): Object: 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/link_Calcetines_Algodon' is clicked on
+
+2020-10-06 00:32:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/link_Calcetines_Algodon' is clicked on
+
+2020-10-06 00:32:25 - [TEST_STEP][PASSED] - click(findTestObject("Añadir Producto al Carrito/Añadir producto por Categoria/dropdown_Opcion_Size")): Object: 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/dropdown_Opcion_Size' is clicked on
+
+2020-10-06 00:32:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/dropdown_Opcion_Size' is clicked on
+
+2020-10-06 00:32:27 - [TEST_STEP][FAILED] - click(findTestObject("Añadir Producto al Carrito/Añadir producto por Categoria/dropdown_Calcetines_Size")): Unable to click on object 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/dropdown_Calcetines_Size' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/dropdown_Calcetines_Size'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Añadir Producto por Seccion Categorias.run(Añadir Producto por Seccion Categorias:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1601958699512.run(TempTestSuite1601958699512.groovy:37)
+Caused by: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-LK08F6R', ip: '172.20.10.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Karina\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60731}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c06c7df50a9a2b7e874c7b91397bef6e
+*** Element info: {Using=xpath, value=//a[@id='native_dropdown_selected_size_name_2']}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:789)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1150)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1601933416026.run(Script1601933416026.groovy:31)
+	... 13 more
+)
+
+2020-10-06 00:33:40 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2020-10-06 00:33:40 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/dropdown_Calcetines_Size' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/dropdown_Calcetines_Size'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Añadir Producto por Seccion Categorias.run(Añadir Producto por Seccion Categorias:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1601958699512.run(TempTestSuite1601958699512.groovy:37)
+Caused by: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-LK08F6R', ip: '172.20.10.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Karina\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60731}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c06c7df50a9a2b7e874c7b91397bef6e
+*** Element info: {Using=xpath, value=//a[@id='native_dropdown_selected_size_name_2']}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:789)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1150)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1601933416026.run(Script1601933416026.groovy:31)
+	... 13 more
+)
+
+2020-10-06 00:33:40 - [TEST_STEP][PASSED] - catch (com.kms.katalon.core.exception.StepFailedException error): null
+
+2020-10-06 00:33:40 - [TEST_STEP][PASSED] - println("No se encontró el objeto: " + error): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/A\u00F1adir Producto al Carrito/A\u00F1adir Producto por Barra de Busqueda" time="49.523" classname="Test Cases/A\u00F1adir Producto al Carrito/A\u00F1adir Producto por Barra de Busqueda" status="PASSED">
+         <system-out><![CDATA[2020-10-06 00:33:40 - [TEST_CASE][PASSED] - Test Cases/A\u00F1adir Producto al Carrito/A\u00F1adir Producto por Barra de Busqueda: Test Cases/Añadir Producto al Carrito/Añadir Producto por Barra de Busqueda
+
+2020-10-06 00:33:40 - [TEST_STEP][PASSED] - try: Browser is closed
+
+2020-10-06 00:33:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-06 00:33:40 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-10-06 00:33:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-06 00:33:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-06 00:33:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-06 00:33:45 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://www.amazon.com' successfully
+
+2020-10-06 00:33:54 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com' successfully
+
+2020-10-06 00:33:54 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-10-06 00:33:57 - [MESSAGE][PASSED] - Current window maximized
+
+2020-10-06 00:33:57 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject("Object Repository/Añadir Producto al Carrito/Añadir Producto por Barra de Busqueda/input_Barra_Busqueda"), timeOut)): null
+
+2020-10-06 00:33:58 - [MESSAGE][PASSED] - Object 'Object Repository/Añadir Producto al Carrito/Añadir Producto por Barra de Busqueda/input_Barra_Busqueda' is present
+
+2020-10-06 00:33:58 - [TEST_STEP][PASSED] - setText(findTestObject("Añadir Producto al Carrito/Añadir Producto por Barra de Busqueda/input_Barra_Busqueda"), "Calcetines Touched by Nature de algodón orgánico"): Text 'Calcetines Touched by Nature de algodón orgánico' is set on object 'Object Repository/Añadir Producto al Carrito/Añadir Producto por Barra de Busqueda/input_Barra_Busqueda'
+
+2020-10-06 00:34:01 - [MESSAGE][PASSED] - Text 'Calcetines Touched by Nature de algodón orgánico' is set on object 'Object Repository/Añadir Producto al Carrito/Añadir Producto por Barra de Busqueda/input_Barra_Busqueda'
+
+2020-10-06 00:34:01 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Añadir Producto al Carrito/Añadir Producto por Barra de Busqueda/input_Barra_Busqueda"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Añadir Producto al Carrito/Añadir Producto por Barra de Busqueda/input_Barra_Busqueda'
+
+2020-10-06 00:34:07 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Añadir Producto al Carrito/Añadir Producto por Barra de Busqueda/input_Barra_Busqueda'
+
+2020-10-06 00:34:07 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject("Añadir Producto al Carrito/Añadir producto por Categoria/link_Calcetines_Algodon"), timeOut)): null
+
+2020-10-06 00:34:08 - [MESSAGE][PASSED] - Object 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/link_Calcetines_Algodon' is present
+
+2020-10-06 00:34:08 - [TEST_STEP][PASSED] - click(findTestObject("Añadir Producto al Carrito/Añadir producto por Categoria/link_Calcetines_Algodon")): Object: 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/link_Calcetines_Algodon' is clicked on
+
+2020-10-06 00:34:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/link_Calcetines_Algodon' is clicked on
+
+2020-10-06 00:34:09 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject("Añadir Producto al Carrito/Añadir producto por Categoria/dropdown_Opcion_Size"), timeOut)): null
+
+2020-10-06 00:34:11 - [MESSAGE][PASSED] - Object 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/dropdown_Opcion_Size' is present
+
+2020-10-06 00:34:11 - [TEST_STEP][PASSED] - click(findTestObject("Añadir Producto al Carrito/Añadir producto por Categoria/dropdown_Opcion_Size")): Object: 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/dropdown_Opcion_Size' is clicked on
+
+2020-10-06 00:34:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/dropdown_Opcion_Size' is clicked on
+
+2020-10-06 00:34:14 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject("Añadir Producto al Carrito/Añadir producto por Categoria/dropdown_Calcetines_Size"), timeOut)): null
+
+2020-10-06 00:34:15 - [MESSAGE][PASSED] - Object 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/dropdown_Calcetines_Size' is present
+
+2020-10-06 00:34:15 - [TEST_STEP][PASSED] - click(findTestObject("Añadir Producto al Carrito/Añadir producto por Categoria/dropdown_Calcetines_Size")): Object: 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/dropdown_Calcetines_Size' is clicked on
+
+2020-10-06 00:34:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/dropdown_Calcetines_Size' is clicked on
+
+2020-10-06 00:34:16 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject("Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/btn_Color_Calcetines"), timeOut)): null
+
+2020-10-06 00:34:20 - [MESSAGE][PASSED] - Object 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/btn_Color_Calcetines' is present
+
+2020-10-06 00:34:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/btn_Color_Calcetines")): Object: 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/btn_Color_Calcetines' is clicked on
+
+2020-10-06 00:34:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/btn_Color_Calcetines' is clicked on
+
+2020-10-06 00:34:21 - [TEST_STEP][PASSED] - colorSeleccionado = getText(findTestObject("Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/label_Color_Seleccionado")): Text of object 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/label_Color_Seleccionado' is: 'Girl Stripes'
+
+2020-10-06 00:34:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/label_Color_Seleccionado' is: 'Girl Stripes'
+
+2020-10-06 00:34:25 - [TEST_STEP][PASSED] - println(colorSeleccionado): null
+
+2020-10-06 00:34:25 - [TEST_STEP][PASSED] - if (colorSeleccionado == colorMediaRosado): null
+
+2020-10-06 00:34:25 - [TEST_STEP][PASSED] - println("Color correcto!"): null
+
+2020-10-06 00:34:25 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject("Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/btn_Añadir_Carrito"), timeOut)): null
+
+2020-10-06 00:34:25 - [MESSAGE][PASSED] - Object 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/btn_Añadir_Carrito' is present
+
+2020-10-06 00:34:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/btn_Añadir_Carrito")): Object: 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/btn_Añadir_Carrito' is clicked on
+
+2020-10-06 00:34:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/btn_Añadir_Carrito' is clicked on
+
+2020-10-06 00:34:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-10-06 00:34:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-10-06 00:31:43 - [TEST_SUITE][PASSED] - A\u00F1adir producto Carrito Amazon: Test Cases/Añadir Producto al Carrito/Añadir Producto por Barra de Busqueda]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

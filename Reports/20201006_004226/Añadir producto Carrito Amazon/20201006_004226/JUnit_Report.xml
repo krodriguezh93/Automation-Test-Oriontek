@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="A\u00F1adir producto Carrito Amazon" time="110.029" tests="2" failures="0" errors="0">
+   <testsuite name="A\u00F1adir producto Carrito Amazon" tests="2" failures="0" errors="0" time="110.029" timestamp="2020-10-06 00:42:30" hostname="Karina - DESKTOP-LK08F6R" id="Test Suites/A\u00F1adir producto Carrito Amazon">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Karina\\Desktop\\Automation-Test-Oriontek\\Reports\\20201006_004226\\A\u00F1adir producto Carrito Amazon\\20201006_004226"/>
+         <property name="logFiles" value="C:\\Users\\Karina\\Desktop\\Automation-Test-Oriontek\\Reports\\20201006_004226\\A\u00F1adir producto Carrito Amazon\\20201006_004226\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Karina - DESKTOP-LK08F6R"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.5.5.1"/>
+         <property name="browser" value="Chrome 85.0.4183.121"/>
+         <property name="hostAddress" value="172.20.10.8"/>
+         <property name="sessionId" value="7ee90877f1a13efc14bdea4e76dbf13b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/A\u00F1adir Producto al Carrito/A\u00F1adir Producto por Seccion Categorias" time="54.92" classname="Test Cases/A\u00F1adir Producto al Carrito/A\u00F1adir Producto por Seccion Categorias" status="PASSED">
+         <system-out><![CDATA[2020-10-06 00:42:31 - [TEST_CASE][PASSED] - Test Cases/A\u00F1adir Producto al Carrito/A\u00F1adir Producto por Seccion Categorias: Test Cases/Añadir Producto al Carrito/Añadir Producto por Seccion Categorias
+
+2020-10-06 00:42:32 - [TEST_STEP][PASSED] - try: Browser is closed
+
+2020-10-06 00:42:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-06 00:42:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-06 00:42:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-06 00:42:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-06 00:42:38 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://www.amazon.com' successfully
+
+2020-10-06 00:42:46 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com' successfully
+
+2020-10-06 00:42:46 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-10-06 00:42:48 - [MESSAGE][PASSED] - Current window maximized
+
+2020-10-06 00:42:48 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject("Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/hamburger_Nav_Menu"), timeOut)): null
+
+2020-10-06 00:42:50 - [MESSAGE][PASSED] - Object 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/hamburger_Nav_Menu' is present
+
+2020-10-06 00:42:50 - [TEST_STEP][PASSED] - click(findTestObject("Añadir Producto al Carrito/Añadir producto por Categoria/hamburger_Nav_Menu")): Object: 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/hamburger_Nav_Menu' is clicked on
+
+2020-10-06 00:42:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/hamburger_Nav_Menu' is clicked on
+
+2020-10-06 00:42:58 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject("Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/link_Categoria_Bebe"), timeOut)): null
+
+2020-10-06 00:42:59 - [MESSAGE][PASSED] - Object 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/link_Categoria_Bebe' is present
+
+2020-10-06 00:42:59 - [TEST_STEP][PASSED] - click(findTestObject("Añadir Producto al Carrito/Añadir producto por Categoria/link_Categoria_Bebe")): Object: 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/link_Categoria_Bebe' is clicked on
+
+2020-10-06 00:42:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/link_Categoria_Bebe' is clicked on
+
+2020-10-06 00:42:59 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject("Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/link_Categoria_Accesorios"), timeOut)): null
+
+2020-10-06 00:43:00 - [MESSAGE][PASSED] - Object 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/link_Categoria_Accesorios' is present
+
+2020-10-06 00:43:00 - [TEST_STEP][PASSED] - click(findTestObject("Añadir Producto al Carrito/Añadir producto por Categoria/link_Categoria_Accesorios")): Object: 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/link_Categoria_Accesorios' is clicked on
+
+2020-10-06 00:43:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/link_Categoria_Accesorios' is clicked on
+
+2020-10-06 00:43:05 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject("Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/link_Calcetines_Algodon"), timeOut)): null
+
+2020-10-06 00:43:06 - [MESSAGE][PASSED] - Object 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/link_Calcetines_Algodon' is present
+
+2020-10-06 00:43:06 - [TEST_STEP][PASSED] - click(findTestObject("Añadir Producto al Carrito/Añadir producto por Categoria/link_Calcetines_Algodon")): Object: 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/link_Calcetines_Algodon' is clicked on
+
+2020-10-06 00:43:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/link_Calcetines_Algodon' is clicked on
+
+2020-10-06 00:43:07 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject("Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/dropdown_Opcion_Size"), timeOut)): null
+
+2020-10-06 00:43:07 - [MESSAGE][PASSED] - Object 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/dropdown_Opcion_Size' is present
+
+2020-10-06 00:43:07 - [TEST_STEP][PASSED] - click(findTestObject("Añadir Producto al Carrito/Añadir producto por Categoria/dropdown_Opcion_Size")): Object: 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/dropdown_Opcion_Size' is clicked on
+
+2020-10-06 00:43:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/dropdown_Opcion_Size' is clicked on
+
+2020-10-06 00:43:10 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject("Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/dropdown_Calcetines_Size"), timeOut)): null
+
+2020-10-06 00:43:14 - [MESSAGE][PASSED] - Object 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/dropdown_Calcetines_Size' is present
+
+2020-10-06 00:43:14 - [TEST_STEP][PASSED] - click(findTestObject("Añadir Producto al Carrito/Añadir producto por Categoria/dropdown_Calcetines_Size")): Object: 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/dropdown_Calcetines_Size' is clicked on
+
+2020-10-06 00:43:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/dropdown_Calcetines_Size' is clicked on
+
+2020-10-06 00:43:14 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject("Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/btn_Color_Calcetines"), timeOut)): null
+
+2020-10-06 00:43:18 - [MESSAGE][PASSED] - Object 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/btn_Color_Calcetines' is present
+
+2020-10-06 00:43:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/btn_Color_Calcetines")): Object: 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/btn_Color_Calcetines' is clicked on
+
+2020-10-06 00:43:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/btn_Color_Calcetines' is clicked on
+
+2020-10-06 00:43:19 - [TEST_STEP][PASSED] - colorSeleccionado = getText(findTestObject("Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/label_Color_Seleccionado")): Text of object 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/label_Color_Seleccionado' is: 'Girl Stripes'
+
+2020-10-06 00:43:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/label_Color_Seleccionado' is: 'Girl Stripes'
+
+2020-10-06 00:43:22 - [TEST_STEP][PASSED] - println(colorSeleccionado): null
+
+2020-10-06 00:43:22 - [TEST_STEP][PASSED] - if (colorSeleccionado == colorMediaRosado): null
+
+2020-10-06 00:43:22 - [TEST_STEP][PASSED] - println("Color correcto!"): null
+
+2020-10-06 00:43:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/btn_Añadir_Carrito")): Object: 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/btn_Añadir_Carrito' is clicked on
+
+2020-10-06 00:43:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/btn_Añadir_Carrito' is clicked on
+
+2020-10-06 00:43:25 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-10-06 00:43:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/A\u00F1adir Producto al Carrito/A\u00F1adir Producto por Barra de Busqueda" time="53.622" classname="Test Cases/A\u00F1adir Producto al Carrito/A\u00F1adir Producto por Barra de Busqueda" status="PASSED">
+         <system-out><![CDATA[2020-10-06 00:43:26 - [TEST_CASE][PASSED] - Test Cases/A\u00F1adir Producto al Carrito/A\u00F1adir Producto por Barra de Busqueda: Test Cases/Añadir Producto al Carrito/Añadir Producto por Barra de Busqueda
+
+2020-10-06 00:43:27 - [TEST_STEP][PASSED] - try: Browser is closed
+
+2020-10-06 00:43:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-06 00:43:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-06 00:43:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-06 00:43:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-06 00:43:30 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://www.amazon.com' successfully
+
+2020-10-06 00:43:36 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com' successfully
+
+2020-10-06 00:43:36 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-10-06 00:43:39 - [MESSAGE][PASSED] - Current window maximized
+
+2020-10-06 00:43:39 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject("Object Repository/Añadir Producto al Carrito/Añadir Producto por Barra de Busqueda/input_Barra_Busqueda"), timeOut)): null
+
+2020-10-06 00:43:41 - [MESSAGE][PASSED] - Object 'Object Repository/Añadir Producto al Carrito/Añadir Producto por Barra de Busqueda/input_Barra_Busqueda' is present
+
+2020-10-06 00:43:41 - [TEST_STEP][PASSED] - setText(findTestObject("Añadir Producto al Carrito/Añadir Producto por Barra de Busqueda/input_Barra_Busqueda"), "Calcetines Touched by Nature de algodón orgánico"): Text 'Calcetines Touched by Nature de algodón orgánico' is set on object 'Object Repository/Añadir Producto al Carrito/Añadir Producto por Barra de Busqueda/input_Barra_Busqueda'
+
+2020-10-06 00:43:44 - [MESSAGE][PASSED] - Text 'Calcetines Touched by Nature de algodón orgánico' is set on object 'Object Repository/Añadir Producto al Carrito/Añadir Producto por Barra de Busqueda/input_Barra_Busqueda'
+
+2020-10-06 00:43:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Añadir Producto al Carrito/Añadir Producto por Barra de Busqueda/input_Barra_Busqueda"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Añadir Producto al Carrito/Añadir Producto por Barra de Busqueda/input_Barra_Busqueda'
+
+2020-10-06 00:43:56 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Añadir Producto al Carrito/Añadir Producto por Barra de Busqueda/input_Barra_Busqueda'
+
+2020-10-06 00:43:56 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject("Añadir Producto al Carrito/Añadir producto por Categoria/link_Calcetines_Algodon"), timeOut)): null
+
+2020-10-06 00:43:57 - [MESSAGE][PASSED] - Object 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/link_Calcetines_Algodon' is present
+
+2020-10-06 00:43:57 - [TEST_STEP][PASSED] - click(findTestObject("Añadir Producto al Carrito/Añadir producto por Categoria/link_Calcetines_Algodon")): Object: 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/link_Calcetines_Algodon' is clicked on
+
+2020-10-06 00:44:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/link_Calcetines_Algodon' is clicked on
+
+2020-10-06 00:44:04 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject("Añadir Producto al Carrito/Añadir producto por Categoria/dropdown_Opcion_Size"), timeOut)): null
+
+2020-10-06 00:44:07 - [MESSAGE][PASSED] - Object 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/dropdown_Opcion_Size' is present
+
+2020-10-06 00:44:07 - [TEST_STEP][PASSED] - click(findTestObject("Añadir Producto al Carrito/Añadir producto por Categoria/dropdown_Opcion_Size")): Object: 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/dropdown_Opcion_Size' is clicked on
+
+2020-10-06 00:44:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/dropdown_Opcion_Size' is clicked on
+
+2020-10-06 00:44:08 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject("Añadir Producto al Carrito/Añadir producto por Categoria/dropdown_Calcetines_Size"), timeOut)): null
+
+2020-10-06 00:44:08 - [MESSAGE][PASSED] - Object 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/dropdown_Calcetines_Size' is present
+
+2020-10-06 00:44:08 - [TEST_STEP][PASSED] - click(findTestObject("Añadir Producto al Carrito/Añadir producto por Categoria/dropdown_Calcetines_Size")): Object: 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/dropdown_Calcetines_Size' is clicked on
+
+2020-10-06 00:44:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/dropdown_Calcetines_Size' is clicked on
+
+2020-10-06 00:44:09 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject("Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/btn_Color_Calcetines"), timeOut)): null
+
+2020-10-06 00:44:11 - [MESSAGE][PASSED] - Object 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/btn_Color_Calcetines' is present
+
+2020-10-06 00:44:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/btn_Color_Calcetines")): Object: 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/btn_Color_Calcetines' is clicked on
+
+2020-10-06 00:44:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/btn_Color_Calcetines' is clicked on
+
+2020-10-06 00:44:13 - [TEST_STEP][PASSED] - colorSeleccionado = getText(findTestObject("Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/label_Color_Seleccionado")): Text of object 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/label_Color_Seleccionado' is: 'Girl Stripes'
+
+2020-10-06 00:44:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/label_Color_Seleccionado' is: 'Girl Stripes'
+
+2020-10-06 00:44:16 - [TEST_STEP][PASSED] - println(colorSeleccionado): null
+
+2020-10-06 00:44:16 - [TEST_STEP][PASSED] - if (colorSeleccionado == colorMediaRosado): null
+
+2020-10-06 00:44:16 - [TEST_STEP][PASSED] - println("Color correcto!"): null
+
+2020-10-06 00:44:16 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject("Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/btn_Añadir_Carrito"), timeOut)): null
+
+2020-10-06 00:44:17 - [MESSAGE][PASSED] - Object 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/btn_Añadir_Carrito' is present
+
+2020-10-06 00:44:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/btn_Añadir_Carrito")): Object: 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/btn_Añadir_Carrito' is clicked on
+
+2020-10-06 00:44:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/btn_Añadir_Carrito' is clicked on
+
+2020-10-06 00:44:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-10-06 00:44:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-10-06 00:42:30 - [TEST_SUITE][PASSED] - A\u00F1adir producto Carrito Amazon: Test Cases/Añadir Producto al Carrito/Añadir Producto por Barra de Busqueda]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

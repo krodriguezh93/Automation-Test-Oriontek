@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+A\u00F1adir producto Carrito Amazon,Chrome 85.0.4183.121,,,2020-10-06 00:31:43,2020-10-06 00:34:29,2m - 46.219s,PASSED
+,,,,,,,
+Test Cases/A\u00F1adir Producto al Carrito/A\u00F1adir Producto por Seccion Categorias,Chrome 85.0.4183.121,,,2020-10-06 00:31:44,2020-10-06 00:33:40,1m - 55.946s,PASSED
+try,Chrome 85.0.4183.121,,,2020-10-06 00:31:45,2020-10-06 00:33:40,1m - 54.857s,FAILED
+catch (com.kms.katalon.core.exception.StepFailedException error),Chrome 85.0.4183.121,,,2020-10-06 00:33:40,2020-10-06 00:33:40,0.007s,PASSED
+,,,,,,,
+Test Cases/A\u00F1adir Producto al Carrito/A\u00F1adir Producto por Barra de Busqueda,Chrome 85.0.4183.121,,,2020-10-06 00:33:40,2020-10-06 00:34:29,49.523s,PASSED
+try,Chrome 85.0.4183.121,,,2020-10-06 00:33:40,2020-10-06 00:34:29,48.941s,PASSED
