@@ -12,4 +12,11 @@
       <masked>false</masked>
       <name>colorMediaRosado</name>
    </variable>
+   <variable>
+      <defaultValue>'6-12 Months'</defaultValue>
+      <description></description>
+      <id>0358eba0-5f8d-40a3-aeaa-e06d44c5af8f</id>
+      <masked>false</masked>
+      <name>SizeMeses</name>
+   </variable>
 </TestCaseEntity>

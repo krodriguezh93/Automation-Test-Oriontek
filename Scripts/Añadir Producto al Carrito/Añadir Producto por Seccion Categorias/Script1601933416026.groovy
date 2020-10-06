@@ -18,51 +18,60 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.exception.StepFailedException
 
 try {
-WebUI.openBrowser('')
+	WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.URL)
+	WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.maximizeWindow()
+	WebUI.maximizeWindow()
 
-if (WebUI.waitForElementPresent(findTestObject('Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/hamburger_Nav_Menu'), GlobalVariable.timeOut)) {
-	WebUI.click(findTestObject('Añadir Producto al Carrito/Añadir producto por Categoria/hamburger_Nav_Menu'))
-}
-if (WebUI.waitForElementPresent(findTestObject('Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/link_Categoria_Bebe'), GlobalVariable.timeOut)) {
-	WebUI.click(findTestObject('Añadir Producto al Carrito/Añadir producto por Categoria/link_Categoria_Bebe'))
-}
-if (WebUI.waitForElementPresent(findTestObject('Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/link_Categoria_Accesorios'), GlobalVariable.timeOut)) {
-	WebUI.click(findTestObject('Añadir Producto al Carrito/Añadir producto por Categoria/link_Categoria_Accesorios'))
-}
-if (WebUI.waitForElementPresent(findTestObject('Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/link_Calcetines_Algodon'), GlobalVariable.timeOut)) {
-	WebUI.click(findTestObject('Añadir Producto al Carrito/Añadir producto por Categoria/link_Calcetines_Algodon'))
-}
-if (WebUI.waitForElementPresent(findTestObject('Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/dropdown_Opcion_Size'), GlobalVariable.timeOut)) {
-	WebUI.click(findTestObject('Añadir Producto al Carrito/Añadir producto por Categoria/dropdown_Opcion_Size'))
-}
-if (WebUI.waitForElementPresent(findTestObject('Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/dropdown_Calcetines_Size'), GlobalVariable.timeOut)) {
-	WebUI.click(findTestObject('Añadir Producto al Carrito/Añadir producto por Categoria/dropdown_Calcetines_Size'))
-}
-if (WebUI.waitForElementPresent(findTestObject('Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/btn_Color_Calcetines'), GlobalVariable.timeOut)) {
-	WebUI.click(findTestObject('Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/btn_Color_Calcetines'))
-}
+	if (WebUI.waitForElementPresent(findTestObject('Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/hamburger_Nav_Menu'), GlobalVariable.timeOut)) {
+		WebUI.click(findTestObject('Añadir Producto al Carrito/Añadir producto por Categoria/hamburger_Nav_Menu'))
+	}
+	if (WebUI.waitForElementPresent(findTestObject('Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/link_Categoria_Bebe'), GlobalVariable.timeOut)) {
+		WebUI.click(findTestObject('Añadir Producto al Carrito/Añadir producto por Categoria/link_Categoria_Bebe'))
+	}
+	if (WebUI.waitForElementPresent(findTestObject('Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/link_Categoria_Accesorios'), GlobalVariable.timeOut)) {
+		WebUI.click(findTestObject('Añadir Producto al Carrito/Añadir producto por Categoria/link_Categoria_Accesorios'))
+	}
+	if (WebUI.waitForElementPresent(findTestObject('Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/link_Calcetines_Algodon'), GlobalVariable.timeOut)) {
+		WebUI.click(findTestObject('Añadir Producto al Carrito/Añadir producto por Categoria/link_Calcetines_Algodon'))
+	}
+	if (WebUI.waitForElementPresent(findTestObject('Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/dropdown_Opcion_Size'), GlobalVariable.timeOut)) {
+		WebUI.click(findTestObject('Añadir Producto al Carrito/Añadir producto por Categoria/dropdown_Opcion_Size'))
+	}
+	if (WebUI.waitForElementPresent(findTestObject('Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/dropdown_Calcetines_Size'), GlobalVariable.timeOut)) {
+		WebUI.click(findTestObject('Añadir Producto al Carrito/Añadir producto por Categoria/dropdown_Calcetines_Size'))
+	}
+	String Meses = WebUI.getText(findTestObject('Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/label_dropdown_Size'))
+	println(Meses)
+	if (Meses == SizeMeses) {
+		println('Size correcto')
+	} else {
+	    throw Exception('Size incorrecto')
+	}
+	if (WebUI.waitForElementPresent(findTestObject('Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/btn_Color_Calcetines'), GlobalVariable.timeOut)) {
+		WebUI.click(findTestObject('Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/btn_Color_Calcetines'))
+	}
+
+	
+	String colorSeleccionado = WebUI.getText(findTestObject('Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/label_Color_Seleccionado'))
+
+	println(colorSeleccionado)
+
+	if (colorSeleccionado == colorMediaRosado) {
+		println('Color correcto!')
+	} else {
+		throw Exception('Color incorrecto')
+	}
+
+	WebUI.click(findTestObject('Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/btn_Añadir_Carrito'))
 
 
-
-String colorSeleccionado = WebUI.getText(findTestObject('Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/label_Color_Seleccionado'))
-
-println(colorSeleccionado)
-
-if (colorSeleccionado == colorMediaRosado) {
-    println('Color correcto!')
-} else {
-    throw Exception('Color incorrecto')
-}
-
- WebUI.click(findTestObject('Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/btn_Añadir_Carrito'))
-
-
-WebUI.closeBrowser()
+	WebUI.closeBrowser()
 
 } catch (StepFailedException error) {
 	println("No se encontró el objeto: " + error)
+}
+ catch (Exception error) {
+	println("Ha ocurrido un error: " + error)
 }

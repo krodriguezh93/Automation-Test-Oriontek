@@ -46,6 +46,13 @@ try {
 		WebUI.click(findTestObject('Añadir Producto al Carrito/Añadir producto por Categoria/dropdown_Calcetines_Size'))
 	}
 	
+	String Meses = WebUI.getTexfindTestObject('Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/label_dropdown_Size')t()
+	println(Meses)
+	if (Meses == SizeMeses) {
+		printl('Size correcto')
+	} else {
+	    throw Exception('Size incorrecto')
+	}
 	if (WebUI.waitForElementPresent(findTestObject('Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/btn_Color_Calcetines'), GlobalVariable.timeOut)) {
 		WebUI.click(findTestObject('Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/btn_Color_Calcetines'))
 	}
@@ -69,4 +76,10 @@ try {
 	
 } catch (StepFailedException error) {
 	println("No se encontro el objeto: " + error)
+} catch (Exception error) {
+	println("Ha ocurrido un error: " + error)
 }
+
+
+
+
