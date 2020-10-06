@@ -1,6 +1,6 @@
 # Automation-Test-Oriontek
 
-Para el desarrollo de esta prueba se utilizó la herramienta **Katalon Studio** version 7.5.5 con el Sistema Operativo **Windows 10 Pro**.
+Para el desarrollo de esta prueba se utilizó la herramienta [Katalon Studio](https://www.katalon.com) version [7.5.5](https://github.com/katalon-studio/katalon-studio/releases/tag/v7.5.5) con el Sistema Operativo **Windows 10 Pro**.
 
 En esta prueba se realizó la automatización del escenario de "Añadir un producto al carrito" de la página web [Amazon](https://amazon.com).
 
@@ -56,3 +56,59 @@ Se crearon los siguientes abjetos para la interacción de los elementos de la p�
 - btn_Añadir_Carrito: Objeto que hace referencia al boton de añadir producto al carrito de compras.
 - input_Barra_Busqueda: Objeto que hace  para ingresar texto en la barra de busqueda.
 - label_Agregado_Carrito: Objeto que hace referencia para  validar que el producto ha sido agregado.
+
+
+### Variables locales
+<table>
+	<tr>
+		<th>Nombre</th>
+		<th>Valor</th>
+		<th>Description</th>
+	<tr>
+	<tr>
+		<td>colorMediaRosado</td>
+		<td>Girl Stripes</td>
+		<td>Para validar el color correcto del producto.</td>
+	</tr>
+	<tr>
+		<td>SizeMeses</td>
+		<td>6-12 Months</td>
+		<td>Para validar el tamaño correcto del producto.</td>
+	</tr>
+	<tr>
+		<td>confirmacionProducto</td>
+		<td>Added to Cart</td>
+		<td>Para confirmar que el producto fue agregado al carrito de compras.</td>
+	</tr>
+</table>
+
+### Variables globales
+<table>
+	<tr>
+		<th>Nombre</th>
+		<th>Valor</th>
+		<th>Description</th>
+	<tr>
+	<tr>
+		<td>URL</td>
+		<td>https://www.amazon.com</td>
+		<td>Página web de Amazon.</td>
+	</tr>
+	<tr>
+		<td>timeOut</td>
+		<td>40</td>
+		<td>Tiempo maximo de espera hasta que aparezca el elemento.</td>
+	</tr>
+</table>
+
+### Cómo ejecutar las pruebas
+
+1 - Descargar el archivo comprimido.
+2 - Entrar a la herramienta Katalon Studio.
+3 - Click en File.
+4 - Click en Open project.
+5 - Buscar el proyecto.
+6 - Hacer click en la carpeta TestSuites.
+7 - Doble click en el testsuite "Añadir producto Carrito Amazon".
+8 - Click en el boton "Run" o presionar Ctrl + Shift + A
+ 
