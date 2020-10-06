@@ -46,10 +46,10 @@ try {
 		WebUI.click(findTestObject('Añadir Producto al Carrito/Añadir producto por Categoria/dropdown_Calcetines_Size'))
 	}
 	
-	String Meses = WebUI.getTexfindTestObject('Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/label_dropdown_Size')t()
+	String Meses = WebUI.getText(findTestObject('Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/label_dropdown_Size'))
 	println(Meses)
 	if (Meses == SizeMeses) {
-		printl('Size correcto')
+		println('Size correcto')
 	} else {
 	    throw Exception('Size incorrecto')
 	}
@@ -71,6 +71,16 @@ try {
 	if (WebUI.waitForElementPresent(findTestObject('Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/btn_Añadir_Carrito'), GlobalVariable.timeOut)) {
 		WebUI.click(findTestObject('Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/btn_Añadir_Carrito'))
 	}
+	
+	String productoAgregado = WebUI.getText(findTestObject('Object Repository/Añadir Producto al Carrito/Añadir producto por Categoria/label_Agregado_Carrito'))
+	
+		println(productoAgregado)
+	
+		if (productoAgregado == confirmacionProducto) {
+			println('Producto agregado correctamente!')
+		} else {
+			throw Exception('Producto no agregado al carrito')
+		}
 	
 	WebUI.closeBrowser()
 	

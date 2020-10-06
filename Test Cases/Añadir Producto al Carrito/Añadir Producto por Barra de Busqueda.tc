@@ -13,10 +13,17 @@
       <name>colorMediaRosado</name>
    </variable>
    <variable>
-      <defaultValue>'6-12 Moths'</defaultValue>
+      <defaultValue>'6-12 Months'</defaultValue>
       <description></description>
       <id>83d20bfd-ad94-4de1-9fd8-b22eeadf9fe6</id>
       <masked>false</masked>
       <name>SizeMeses</name>
+   </variable>
+   <variable>
+      <defaultValue>'Added to Cart'</defaultValue>
+      <description></description>
+      <id>ec27ddfc-4291-43b9-82a2-936da945b2b5</id>
+      <masked>false</masked>
+      <name>confirmacionProducto</name>
    </variable>
 </TestCaseEntity>

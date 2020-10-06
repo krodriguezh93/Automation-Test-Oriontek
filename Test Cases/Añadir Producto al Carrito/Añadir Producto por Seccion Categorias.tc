@@ -19,4 +19,11 @@
       <masked>false</masked>
       <name>SizeMeses</name>
    </variable>
+   <variable>
+      <defaultValue>'Added to Cart'</defaultValue>
+      <description></description>
+      <id>e0dd5f7d-efce-444f-9a97-9ebf2fd979e0</id>
+      <masked>false</masked>
+      <name>confirmacionProducto</name>
+   </variable>
 </TestCaseEntity>
