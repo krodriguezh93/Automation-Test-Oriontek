@@ -6,7 +6,7 @@ En esta prueba se realizó la automatización del escenario de "Añadir un produ
 
 ### Casos de prueba:
 
-#### Añadir un Producto mediante la Sección de Categorías.    
+#### [Añadir un Producto mediante la Sección de Categorías.](https://github.com/krodriguezh93/Automation-Test-Oriontek/blob/main/Scripts/A%C3%B1adir%20Producto%20al%20Carrito/A%C3%B1adir%20Producto%20por%20Seccion%20Categorias/Script1601933416026.groovy)
 - Paso 1: Se accede a la url [Amazon](https://amazon.com).
 - Paso 2: Se hace click en el menú de categorías.
 - Paso 3: Se hace click en la categoria "Bebé".
@@ -22,7 +22,7 @@ En esta prueba se realizó la automatización del escenario de "Añadir un produ
 
 Resultado: De acuerdo a lo esperado.
 
-#### Añadir un Producto mediante la Barra de Búsqueda.
+#### [Añadir un Producto mediante la Barra de Búsqueda.](https://github.com/krodriguezh93/Automation-Test-Oriontek/blob/main/Scripts/A%C3%B1adir%20Producto%20al%20Carrito/A%C3%B1adir%20Producto%20por%20Barra%20de%20Busqueda/Script1601939278243.groovy)
 - Paso 1: Se accede a la url [Amazon](https://amazon.com).
 - Paso 2: Ingreso el nombre del producto 'Calcetines Touched by Nature de algodón orgánico'.
 - Paso 3: Se presiona ENTER.
@@ -40,7 +40,8 @@ Resultado: De acuerdo a lo esperado.
 
 Resultado: De acuerdo a lo esperado.
 
-### Objetos:
+### [Objetos](https://github.com/krodriguezh93/Automation-Test-Oriontek/tree/main/Object%20Repository/A%C3%B1adir%20Producto%20al%20Carrito)
+
 
 Se crearon los siguientes abjetos para la interacción de los elementos de la página:
 
