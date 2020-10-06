@@ -103,12 +103,12 @@ Se crearon los siguientes abjetos para la interacción de los elementos de la p�
 
 ### Cómo ejecutar las pruebas
 
-1 - Descargar el archivo comprimido.
-2 - Entrar a la herramienta Katalon Studio.
-3 - Click en File.
-4 - Click en Open project.
-5 - Buscar el proyecto.
-6 - Hacer click en la carpeta TestSuites.
-7 - Doble click en el testsuite "Añadir producto Carrito Amazon".
-8 - Click en el boton "Run" o presionar Ctrl + Shift + A
+- 1 - Descargar el archivo comprimido.
+- 2 - Entrar a la herramienta Katalon Studio.
+- 3 - Click en File.
+- 4 - Click en Open project.
+- 5 - Buscar el proyecto.
+- 6 - Hacer click en la carpeta TestSuites.
+- 7 - Doble click en el testsuite "Añadir producto Carrito Amazon".
+- 8 - Click en el boton "Run" o presionar Ctrl + Shift + A
  
